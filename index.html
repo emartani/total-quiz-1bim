@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Divertido</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="tema-padrao">
+  <!-- HUD fixo -->
+  <div id="hud">
+    <div id="level">🚀 Fase: 1</div>
+    <div id="score">⭐ Pontuação: 0</div>
+    <div id="lives">❤️ Vidas: 3</div>
+
+    <!-- Aviso e combo-box -->
+    <div id="subjectBox">
+      <label for="subjectSelect" id="subjectLabel">📚 Selecione a matéria:</label>
+      <select id="subjectSelect">
+        <option value="" disabled selected>-- Escolha --</option>
+        <option value="ciencias">Ciências</option>
+        <option value="historia">História</option>
+        <option value="geografia">Geografia</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Área do jogo -->
+  <div id="game">
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="submitBtn">✅ Confirmar</button>
+    <div id="feedback"></div>
+    <button id="restartBtn">🔄 Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

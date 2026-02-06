@@ -1,0 +1,56 @@
+{
+  "ciencias": [
+    {
+      "text": "Qual destes é um planeta do Sistema Solar?",
+      "options": [
+        { "type": "text", "text": "Marte", "correct": true },
+        { "type": "image", "src": "img/sirius.png", "correct": false },
+        { "type": "image", "src": "img/plutao.png", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual destes animais é um mamífero?",
+      "options": [
+        { "type": "text", "text": "Cachorro", "correct": true },
+        { "type": "text", "text": "Cobra", "correct": false },
+        { "type": "image", "src": "img/galinha.png", "correct": false }
+      ]
+    }
+  ],
+  "historia": [
+    {
+      "text": "Quem descobriu o Brasil em 1500?",
+      "options": [
+        { "type": "text", "text": "Pedro Álvares Cabral", "correct": true },
+        { "type": "text", "text": "Cristóvão Colombo", "correct": false },
+        { "type": "text", "text": "Dom Pedro II", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual destes símbolos pertence ao Império Romano?",
+      "options": [
+        { "type": "image", "src": "img/romano.png", "correct": true },
+        { "type": "image", "src": "img/egito.png", "correct": false },
+        { "type": "image", "src": "img/grecia.png", "correct": false }
+      ]
+    }
+  ],
+  "geografia": [
+    {
+      "text": "Qual é o maior país do mundo em território?",
+      "options": [
+        { "type": "text", "text": "Rússia", "correct": true },
+        { "type": "text", "text": "Brasil", "correct": false },
+        { "type": "text", "text": "China", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual destes é um continente?",
+      "options": [
+        { "type": "text", "text": "África", "correct": true },
+        { "type": "image", "src": "img/amazonas.png", "correct": false },
+        { "type": "text", "text": "Oceano Atlântico", "correct": false }
+      ]
+    }
+  ]
+}

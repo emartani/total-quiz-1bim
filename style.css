@@ -1,0 +1,217 @@
+body {
+  font-family: 'Luckiest Guy', cursive;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #ffeb3b, #ff9800, #f44336);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* HUD fixo no topo */
+#hud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #4caf50;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.2rem;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Caixa da seleção de matéria */
+#subjectBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#subjectLabel {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+#subjectSelect {
+  font-family: 'Luckiest Guy', cursive;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 3px solid #ffeb3b;
+  background: #fff176;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+#subjectSelect:hover {
+  transform: scale(1.05);
+  background: #fdd835;
+}
+
+/* Área do jogo */
+#game {
+  margin-top: 110px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+#question {
+  font-size: 1.5rem;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+#options div {
+  margin: 10px 0;
+  padding: 15px;
+  border: 3px solid #ff9800;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  background: #ffe082;
+}
+
+#options div:hover {
+  transform: scale(1.05);
+  background: #ffd54f;
+}
+
+#options div.selected {
+  background: #4caf50;
+  color: white;
+  border-color: #388e3c;
+}
+
+.option img {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.option img:hover {
+  transform: scale(1.1);
+}
+
+#submitBtn, #restartBtn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+#submitBtn {
+  background: #2196f3;
+  color: white;
+}
+#submitBtn:hover {
+  background: #1976d2;
+  transform: scale(1.05);
+}
+
+#restartBtn {
+  background: #e91e63;
+  color: white;
+}
+#restartBtn:hover {
+  background: #c2185b;
+  transform: scale(1.05);
+}
+
+#feedback {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Confete */
+.confetti {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  animation: fall 2s linear forwards;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* Feedback animado */
+#feedback.correct {
+  color: #4caf50;
+  animation: pop 0.5s ease;
+}
+#feedback.wrong {
+  color: #f44336;
+  animation: shake 0.5s ease;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  #hud {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  #subjectBox {
+    margin-top: 10px;
+  }
+
+  #game {
+    padding: 15px;
+  }
+
+  #question {
+    font-size: 1.2rem;
+  }
+
+  #options div {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  #submitBtn, #restartBtn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  #feedback {
+    font-size: 1.1rem;
+  }
+}
