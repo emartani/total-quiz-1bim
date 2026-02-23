@@ -116,7 +116,7 @@
       ]
     },
     {
-      "text": "O meio ambiente é o local onde se vive, e é formado por:",
+      "text": "O meio ambiente é o local onde se vive, e é formado por: (SELECIONE DUAS OPÇÕES)",
       "options": [
         { "type": "text", "text": "ambientes naturais", "correct": true },
         { "type": "text", "text": "ambientes construídos", "correct": true },

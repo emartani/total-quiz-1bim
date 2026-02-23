@@ -221,11 +221,11 @@ function revealCorrectAnswers(q) {
 // ====== VERIFICAR RESPOSTA ======
 function checkAnswer() {
   console.log("checkAnswer chamada");
+
   // Se estamos aguardando o clique para ir à próxima, apenas avança
   if (awaitingNext) {
     awaitingNext = false;
     submitBtn.textContent = "✅ Confirmar";
-    // limpa marcações e segue
     currentQuestion++;
     if (currentQuestion < questions.length) {
       loadQuestion();
@@ -241,10 +241,9 @@ function checkAnswer() {
 
   submitBtn.disabled = true;
   const q = questions[currentQuestion];
-
   const optionEls = [...optionsEl.querySelectorAll(".option")];
 
-  // Conjunto do gabarito
+  // Conjunto do gabarito (corretas)
   const correctSet = new Set(
     q.options
       .filter(o => o.correct)
@@ -273,6 +272,7 @@ function checkAnswer() {
     })
   );
 
+  // Função para comparar conjuntos
   const setsAreEqual = (A, B) => A.size === B.size && [...A].every(x => B.has(x));
   const acerto = setsAreEqual(selectedSet, correctSet);
 
@@ -285,7 +285,6 @@ function checkAnswer() {
     playSound("correct");
     updateHud();
 
-    // Avança normalmente após pequena pausa
     setTimeout(() => {
       currentQuestion++;
       if (currentQuestion < questions.length) {
@@ -303,7 +302,7 @@ function checkAnswer() {
   }
 
   // ❌ ERRO
-  // Primeira tentativa errada → segunda chance (sem revelar)
+  // Primeira tentativa errada → segunda chance
   if (!q._triedOnce) {
     q._triedOnce = true;
     feedbackEl.textContent = "❌ Não foi dessa vez... tente novamente!";
@@ -311,7 +310,7 @@ function checkAnswer() {
     score = Math.max(0, score - 2); // penalidade leve
     updateHud();
     submitBtn.disabled = false;
-    return; // NÃO revela nem avança
+    return; // NÃO avança ainda
   }
 
   // Segunda tentativa errada → revela corretas e espera clique para avançar
@@ -338,6 +337,7 @@ function checkAnswer() {
   submitBtn.textContent = "➡️ Próxima";
   submitBtn.disabled = false;
 }
+
 
 function updateHud() {
   scoreEl.textContent = "⭐ Pontuação: " + score;
