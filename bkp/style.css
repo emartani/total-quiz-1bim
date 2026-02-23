@@ -1,4 +1,3 @@
-/* ====== BASE ====== */
 body {
   font-family: 'Luckiest Guy', cursive;
   text-transform: uppercase;
@@ -9,7 +8,7 @@ body {
   justify-content: center;
 }
 
-/* ====== HUD FIXO NO TOPO ====== */
+/* HUD fixo no topo */
 #hud {
   position: fixed;
   top: 0;
@@ -26,7 +25,7 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* ====== CAIXA DA SELEÇÃO DE MATÉRIA ====== */
+/* Caixa da seleção de matéria */
 #subjectBox {
   display: flex;
   flex-direction: column;
@@ -52,38 +51,13 @@ body {
   cursor: pointer;
   transition: transform 0.2s, background 0.3s;
 }
+
 #subjectSelect:hover {
   transform: scale(1.05);
   background: #fdd835;
 }
 
-/* ====== BOTÃO MUTE (se existir no HTML) ====== */
-#muteBtn {
-  font-family: 'Luckiest Guy', cursive;
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding: 8px 14px;
-  border-radius: 10px;
-  border: 3px solid rgba(255,255,255,0.9);
-  background: #2e7d32;
-  color: #fff;
-  cursor: pointer;
-  transition: transform 0.2s, background 0.3s, box-shadow 0.2s;
-}
-#muteBtn:hover {
-  transform: scale(1.05);
-  background: #1b5e20;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-}
-#muteBtn:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.35);
-}
-#muteBtn[aria-pressed="true"] {
-  background: #8d6e63; /* aparência de OFF */
-}
-
-/* ====== ÁREA DO JOGO ====== */
+/* Área do jogo */
 #game {
   margin-top: 110px;
   background: #fff;
@@ -101,16 +75,16 @@ body {
   margin-bottom: 20px;
 }
 
-/* ====== OPÇÕES ====== */
 #options div {
   margin: 10px 0;
   padding: 15px;
   border: 3px solid #ff9800;
   border-radius: 12px;
   cursor: pointer;
-  transition: transform 0.2s, background 0.3s, box-shadow 0.2s;
+  transition: transform 0.2s, background 0.3s;
   background: #ffe082;
 }
+
 #options div:hover {
   transform: scale(1.05);
   background: #ffd54f;
@@ -129,44 +103,11 @@ body {
   border-radius: 8px;
   transition: transform 0.2s;
 }
+
 .option img:hover {
   transform: scale(1.1);
 }
 
-/* ====== FOCO (Acessibilidade) ====== */
-.option:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(33,150,243,0.45);
-}
-
-/* ============================
-   REVELAÇÃO DE GABARITO
-   - corretas: fundo verde
-   - erradas selecionadas: fundo vermelho
-   ============================ */
-
-/* Opção correta (fica verde) */
-#options .option.correct-reveal {
-  background: #2e7d32 !important;   /* verde */
-  border-color: #1b5e20 !important;
-  color: #ffffff !important;        /* texto branco para contraste */
-}
-
-/* Opção errada escolhida (fica vermelha) */
-#options .option.wrong-reveal {
-  background: #f44336 !important;   /* vermelho */
-  border-color: #b71c1c !important;
-  color: #ffffff !important;        /* texto branco para contraste */
-}
-
-/* Se o usuário passar o mouse, não deixar mudar a cor durante o reveal */
-#options .option.correct-reveal:hover,
-#options .option.wrong-reveal:hover {
-  transform: none !important;
-  filter: none !important;
-}
-
-/* ====== BOTÕES ====== */
 #submitBtn, #restartBtn {
   margin-top: 20px;
   padding: 12px 25px;
@@ -174,7 +115,7 @@ body {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  transition: transform 0.2s, background 0.3s, box-shadow 0.2s;
+  transition: transform 0.2s, background 0.3s;
 }
 
 #submitBtn {
@@ -184,11 +125,6 @@ body {
 #submitBtn:hover {
   background: #1976d2;
   transform: scale(1.05);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-}
-#submitBtn:disabled {
-  background: #90a4ae;
-  cursor: not-allowed;
 }
 
 #restartBtn {
@@ -198,14 +134,29 @@ body {
 #restartBtn:hover {
   background: #c2185b;
   transform: scale(1.05);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
-/* ====== FEEDBACK ====== */
 #feedback {
   margin-top: 20px;
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+/* Confete */
+.confetti {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  animation: fall 2s linear forwards;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
 }
 
 /* Feedback animado */
@@ -230,24 +181,7 @@ body {
   75% { transform: translateX(5px); }
 }
 
-/* ====== CONFETE ====== */
-.confetti {
-  position: fixed;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  animation: fall 2s linear forwards;
-  z-index: 9999;
-}
-
-@keyframes fall {
-  to {
-    transform: translateY(100vh) rotate(720deg);
-    opacity: 0;
-  }
-}
-
-/* ====== RESPONSIVIDADE ====== */
+/* Responsividade */
 @media (max-width: 480px) {
   #hud {
     flex-direction: column;
@@ -272,7 +206,7 @@ body {
     padding: 10px;
   }
 
-  #submitBtn, #restartBtn, #muteBtn {
+  #submitBtn, #restartBtn {
     width: 100%;
     font-size: 1rem;
   }

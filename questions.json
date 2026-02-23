@@ -1,55 +1,266 @@
 {
-  "ciencias": [
+  "3-materias": [
     {
-      "text": "Qual destes é um planeta do Sistema Solar?",
+      "text": "Em quais períodos do dia você normalmente realiza atividades?",
       "options": [
-        { "type": "text", "text": "Marte", "correct": true },
-        { "type": "image", "src": "img/sirius.png", "correct": false },
-        { "type": "image", "src": "img/plutao.png", "correct": false }
+        { "type": "text", "text": "Madrugada", "correct": false },
+        { "type": "text", "text": "Manhã", "correct": true },
+        { "type": "text", "text": "Noite", "correct": true },
+        { "type": "text", "text": "Tarde", "correct": true }
       ]
     },
     {
-      "text": "Qual destes animais é um mamífero?",
+      "text": "Quais atividades você costuma realizar pela manhã?",
       "options": [
-        { "type": "text", "text": "Cachorro", "correct": true },
-        { "type": "text", "text": "Cobra", "correct": false },
-        { "type": "image", "src": "img/galinha.png", "correct": false }
+        { "type": "text", "text": "Acordar", "correct": true },
+        { "type": "text", "text": "Tomar café da manhã", "correct": true },
+        { "type": "text", "text": "Jantar", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais atividades vecê costuma realizar a noite?",
+      "options": [
+        { "type": "text", "text": "Dormir", "correct": true },
+        { "type": "text", "text": "Tomar café da manhã", "correct": false },
+        { "type": "text", "text": "Jantar", "correct": true }
+      ]
+    },
+    {
+      "text": "Marque as imagens que mostram instrumentos para marcar as horas:",
+      "options": [
+        { "type": "image", "src": "img/ampulheta.png",     "correct": true },
+        { "type": "image", "src": "img/relogio_pulso.png", "correct": true },
+        { "type": "image", "src": "img/relogio_cuco.png",  "correct": true },
+        { "type": "image", "src": "img/relogio_sol.png",  "correct": true },
+        { "type": "image", "src": "img/calendario.png",  "correct": false },
+        { "type": "image", "src": "img/radio_relogio.png", "correct": true }
+      ]
+    },
+    {
+      "text": "Um conjunto de casas, terrenos e outras construções é delimitado por ruas ou avenidas, formando uma:",
+      "options": [
+        { "type": "text", "text": "Quadra ou quarteirão", "correct": true },
+        { "type": "text", "text": "Comunidade", "correct": false },
+        { "type": "text", "text": "Montanha", "correct": false }
+      ]
+    },
+    {
+      "text": "Um conjunto de quadras ou quarteirões forma:",
+      "options": [
+        { "type": "text", "text": "uma rua", "correct": false },
+        { "type": "text", "text": "uma avenida", "correct": false },
+        { "type": "text", "text": "um bairro", "correct": true }
+      ]
+    },
+    {
+      "text": "O grupo de pessoas que mora no bairro é chamada de:",
+      "options": [
+        { "type": "text", "text": "vila", "correct": false },
+        { "type": "text", "text": "comunidade", "correct": true },
+        { "type": "text", "text": "vizinhos", "correct": false }
+      ]
+    },
+    {
+      "text": "O conjuntos de bairros forma:",
+      "options": [
+        { "type": "text", "text": "um município", "correct": true },
+        { "type": "text", "text": "um país", "correct": false },
+        { "type": "text", "text": "uma rua", "correct": false }
+      ]
+    },
+      {
+      "text": "Selecione os itens que fazem parte de um endereço e que precisamos para enviar uma carta:",
+      "options": [
+        { "type": "text", "text": "nome da rua ou avenida", "correct": true },
+        { "type": "text", "text": "país", "correct": true },
+        { "type": "text", "text": "estado", "correct": true },
+        { "type": "text", "text": "número da casa", "correct": true },
+        { "type": "text", "text": "nome do planeta", "correct": false },
+        { "type": "text", "text": "bairro", "correct": true },
+        { "type": "text", "text": "CEP", "correct": true },
+        { "type": "text", "text": "cidade", "correct": true }
       ]
     }
   ],
-  "historia": [
+  "ciências naturais": [
     {
-      "text": "Quem descobriu o Brasil em 1500?",
+      "text": "Cada ser vivo está adaptado ao ambiente em que vive naturalmente, chamado de:",
       "options": [
-        { "type": "text", "text": "Pedro Álvares Cabral", "correct": true },
-        { "type": "text", "text": "Cristóvão Colombo", "correct": false },
-        { "type": "text", "text": "Dom Pedro II", "correct": false }
+        { "type": "text", "text": "hábitat", "correct": true },
+        { "type": "text", "text": "natureza", "correct": false },
+        { "type": "text", "text": "floresta", "correct": false }
       ]
     },
     {
-      "text": "Qual destes símbolos pertence ao Império Romano?",
+      "text": "Cada planta e animal tem .............. que combinam com o hábitat e os recursos encontrados nele.",
       "options": [
-        { "type": "image", "src": "img/romano.png", "correct": true },
-        { "type": "image", "src": "img/egito.png", "correct": false },
-        { "type": "image", "src": "img/grecia.png", "correct": false }
+        { "type": "text", "text": "características", "correct": true },
+        { "type": "text", "text": "um hábitat", "correct": false },
+        { "type": "text", "text": "alimentos", "correct": false }
+      ]
+    },
+    {
+      "text": "Não sou um peixe, mas nado muito bem. Meu corpo está adaptado a vida no mar. Eu me alimento de peixes e de polvos e vivo em uma região gelada da Terra, chamada Polo Norte. Que animal eu sou?",
+      "options": [
+        { "type": "text", "text": "Cobra dágua", "correct": false },
+        { "type": "text", "text": "Tilápia", "correct": false },
+        { "type": "text", "text": "Foca", "correct": true }
+      ]
+    },
+    {
+      "text": "Qual característica ajuda o cacto a sobreviver no deserto?",
+      "options": [
+        { "type": "text", "text": "Asas pontudas", "correct": false },
+        { "type": "text", "text": "Folhas grandes", "correct": false },
+        { "type": "text", "text": "Espinhos que ajudam a guardar água", "correct": true }
+      ]
+    },
+    {
+      "text": "O meio ambiente é o local onde se vive, e é formado por:",
+      "options": [
+        { "type": "text", "text": "ambientes naturais", "correct": true },
+        { "type": "text", "text": "ambientes construídos", "correct": true },
+        { "type": "text", "text": "ambientes virtuais", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais são os ambientes naturais existentes no Brasil?",
+      "options": [
+        { "type": "text", "text": "Floresta Amazônica", "correct": true },
+        { "type": "text", "text": "Cerrado", "correct": true },
+        { "type": "text", "text": "Mata Atlântica", "correct": true },
+        { "type": "text", "text": "Pampas", "correct": true },
+        { "type": "text", "text": "Caatinga", "correct": true },
+        { "type": "text", "text": "Pantanal", "correct": true },
+        { "type": "text", "text": "Geleira", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais são os ambientes construídos pelo ser humano, utilizando os recursos da natureza?",
+      "options": [
+        { "type": "text", "text": "ambientes urbanos", "correct": true },
+        { "type": "text", "text": "ambientes rurais", "correct": true },
+        { "type": "text", "text": "floresta", "correct": false }
+      ]
+    },
+    {
+      "text": "Selecione exemplos de ambientes construídos pelo ser humano:",
+      "options": [
+        { "type": "text", "text": "cidade", "correct": true },
+        { "type": "text", "text": "fazenda", "correct": true },
+        { "type": "text", "text": "rio", "correct": false }
+      ]
+    },
+    {
+      "text": "Selecione exemplos de ambientes naturais:",
+      "options": [
+        { "type": "text", "text": "cidade", "correct": false },
+        { "type": "text", "text": "montanhas", "correct": true },
+        { "type": "text", "text": "mata", "correct": true }
+      ]
+    },
+    {
+      "text": "Quais são as atividades do ser humano que prejudicam o meio ambiente?",
+      "options": [
+        { "type": "text", "text": "Desmatamento", "correct": true },
+        { "type": "text", "text": "Queimadas", "correct": true },
+        { "type": "text", "text": "Caça", "correct": true },
+        { "type": "text", "text": "Poluição do ar, da água e do solo", "correct": true },
+        { "type": "text", "text": "Jogar lixo na lixeira", "correct": false },
+        { "type": "text", "text": "Plantar árvores", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais são algumas das ações humanas que cuidam do meio ambiente?",
+      "options": [
+        { "type": "text", "text": "Adotar animais", "correct": true },
+        { "type": "text", "text": "Economiza água e energia", "correct": true },
+        { "type": "text", "text": "Caçar animais", "correct": false },
+        { "type": "text", "text": "Poluição do ar, da água e do solo", "correct": false },
+        { "type": "text", "text": "Jogar lixo na lixeira", "correct": true },
+        { "type": "text", "text": "Plantar árvores", "correct": true }
       ]
     }
   ],
-  "geografia": [
+  "português": [
     {
-      "text": "Qual é o maior país do mundo em território?",
+      "text": "Quais as vogais da palavra AMARELO?",
       "options": [
-        { "type": "text", "text": "Rússia", "correct": true },
-        { "type": "text", "text": "Brasil", "correct": false },
-        { "type": "text", "text": "China", "correct": false }
+        { "type": "text", "text": "A, E, O", "correct": true },
+        { "type": "text", "text": "A, E, I", "correct": false },
+        { "type": "text", "text": "M, R, L", "correct": false }
       ]
     },
     {
-      "text": "Qual destes é um continente?",
+      "text": "Quais as vogais da palavra MELANCIA?",
       "options": [
-        { "type": "text", "text": "África", "correct": true },
-        { "type": "image", "src": "img/amazonas.png", "correct": false },
-        { "type": "text", "text": "Oceano Atlântico", "correct": false }
+        { "type": "text", "text": "E, A, I", "correct": true },
+        { "type": "text", "text": "E, A, O", "correct": false },
+        { "type": "text", "text": "M, L, N, C", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais as consoantes da palavra MELANCIA?",
+      "options": [
+        { "type": "text", "text": "M, L, N, C", "correct": true },
+        { "type": "text", "text": "E, A, I", "correct": false },
+        { "type": "text", "text": "E, A, O", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais as consoantes da palavra AMARELO?",
+      "options": [
+        { "type": "text", "text": "M, R, L", "correct": true },
+        { "type": "text", "text": "E, A, I", "correct": false },
+        { "type": "text", "text": "E, A, O", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais encontros vocálicos temos na palavra DEIXARAM?",
+      "options": [
+        { "type": "text", "text": "EI", "correct": true },
+        { "type": "text", "text": "XA", "correct": false },
+        { "type": "text", "text": "ARAM", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais encontros vocálicos temos na palavra CANOA?",
+      "options": [
+        { "type": "text", "text": "OA", "correct": true },
+        { "type": "text", "text": "EA", "correct": false },
+        { "type": "text", "text": "CA", "correct": false }
+      ]
+    },
+    {
+      "text": "A palavra SONECA tem:",
+      "options": [
+        { "type": "text", "text": "6 letras, 3 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": true },
+        { "type": "text", "text": "4 letras, 2 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": false },
+        { "type": "text", "text": "6 letras, 3 sílabas, 3 consoantes (O,E,A) e 3 vogais (S,N,C)", "correct": false }
+      ]
+    },
+    {
+      "text": "A palavra BORBOLETA tem:",
+      "options": [
+        { "type": "text", "text": "9 letras, 4 sílabas, 4 consoantes (B,R,L,T) e 3 vogais (O,E,A)", "correct": true },
+        { "type": "text", "text": "8 letras, 3 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": false },
+        { "type": "text", "text": "9 letras, 4 sílabas, 4 consoantes (O,E,A) e 3 vogais (B,R,L,T)", "correct": false }
+      ]
+    },
+    {
+      "text": "Separe as sílabas da palavra PREJUDICAM:",
+      "options": [
+        { "type": "text", "text": "PRE-JU-DI-CAM", "correct": true },
+        { "type": "text", "text": "PRE-JU-DI-CA-M", "correct": false },
+        { "type": "text", "text": "P-RE-JU-DI-CAM", "correct": false }
+      ]
+    },
+    {
+      "text": "Separe as sílabas da palavra ORGANIZANDO:",
+      "options": [
+        { "type": "text", "text": "OR-GA-NI-ZAN-DO", "correct": true },
+        { "type": "text", "text": "ORG-A-NI-ZA-N-DO", "correct": false },
+        { "type": "text", "text": "O-R-GA-NI-ZA-N-DO", "correct": false }
       ]
     }
   ]
