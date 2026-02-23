@@ -184,7 +184,7 @@
   ],
   "português": [
     {
-      "text": "Quais as vogais da palavra AMARELO?",
+      "text": "Quais as vogais da palavra [AMARELO]?",
       "options": [
         { "type": "text", "text": "A, E, O", "correct": true },
         { "type": "text", "text": "A, E, I", "correct": false },
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "text": "Quais as vogais da palavra MELANCIA?",
+      "text": "Quais as vogais da palavra [MELANCIA]?",
       "options": [
         { "type": "text", "text": "E, A, I", "correct": true },
         { "type": "text", "text": "E, A, O", "correct": false },
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "text": "Quais as consoantes da palavra MELANCIA?",
+      "text": "Quais as consoantes da palavra [MELANCIA]?",
       "options": [
         { "type": "text", "text": "M, L, N, C", "correct": true },
         { "type": "text", "text": "E, A, I", "correct": false },
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "text": "Quais as consoantes da palavra AMARELO?",
+      "text": "Quais as consoantes da palavra [AMARELO]?",
       "options": [
         { "type": "text", "text": "M, R, L", "correct": true },
         { "type": "text", "text": "E, A, I", "correct": false },
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "text": "Quais encontros vocálicos temos na palavra DEIXARAM?",
+      "text": "Quais encontros vocálicos temos na palavra [DEIXARAM]?",
       "options": [
         { "type": "text", "text": "EI", "correct": true },
         { "type": "text", "text": "XA", "correct": false },
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "text": "Quais encontros vocálicos temos na palavra CANOA?",
+      "text": "Quais encontros vocálicos temos na palavra [CANOA]?",
       "options": [
         { "type": "text", "text": "OA", "correct": true },
         { "type": "text", "text": "EA", "correct": false },
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "text": "A palavra SONECA tem:",
+      "text": "A palavra [SONECA] tem:",
       "options": [
         { "type": "text", "text": "6 letras, 3 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": true },
         { "type": "text", "text": "4 letras, 2 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": false },
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "text": "A palavra BORBOLETA tem:",
+      "text": "A palavra [BORBOLETA] tem:",
       "options": [
         { "type": "text", "text": "9 letras, 4 sílabas, 4 consoantes (B,R,L,T) e 3 vogais (O,E,A)", "correct": true },
         { "type": "text", "text": "8 letras, 3 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": false },
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "text": "Separe as sílabas da palavra PREJUDICAM:",
+      "text": "Separe as sílabas da palavra [PREJUDICAM]:",
       "options": [
         { "type": "text", "text": "PRE-JU-DI-CAM", "correct": true },
         { "type": "text", "text": "PRE-JU-DI-CA-M", "correct": false },
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "text": "Separe as sílabas da palavra ORGANIZANDO:",
+      "text": "Separe as sílabas da palavra [ORGANIZANDO]:",
       "options": [
         { "type": "text", "text": "OR-GA-NI-ZAN-DO", "correct": true },
         { "type": "text", "text": "ORG-A-NI-ZA-N-DO", "correct": false },
