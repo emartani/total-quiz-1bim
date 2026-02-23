@@ -6,7 +6,7 @@ let lives = 3;
 let level = 1;
 let subject = null; // começa sem matéria
 let isMuted = false;
-let awaitingNext = false;   // quando true, o botão "Confirmar" vira "Próxima"
+let awaitingNext = false; // quando true, o botão "Confirmar" vira "Próxima"
 let lastQuestionRevealed = null; // guarda a questão cujo gabarito foi revelado
 
 // ====== ELEMENTOS ======
@@ -109,10 +109,12 @@ async function loadQuestions() {
     const response = await fetch("questions.json");
     if (!response.ok) throw new Error("Falha ao carregar questions.json");
     const data = await response.json();
+
     if (!data[subject] || !Array.isArray(data[subject])) {
       throw new Error("Matéria não encontrada no arquivo de questões");
     }
-    questions = shuffle(data[subject]); // chaves: "3-materias", "historia", "geografia"
+
+    questions = shuffle(data[subject]); // chaves: "3-materias", "ciências naturais", "português"
     currentQuestion = 0;
     loadQuestion();
   } catch (err) {
@@ -125,6 +127,7 @@ async function loadQuestions() {
 // ====== MOSTRAR QUESTÃO ATUAL ======
 function loadQuestion() {
   const q = questions[currentQuestion];
+
   questionEl.textContent = q.text;
   optionsEl.innerHTML = "";
 
@@ -132,13 +135,13 @@ function loadQuestion() {
   // (assim a checagem e a revelação usam a mesma ordem exibida)
   q._shuffledOptions = shuffle(q.options);
 
-  q._shuffledOptions.forEach(opt => {
+  q._shuffledOptions.forEach((opt) => {
     const div = document.createElement("div");
     div.className = "option";
     div.setAttribute("role", "button");
     div.setAttribute("tabindex", "0");
 
-    // 🔑 guarda se é correta e um id estável no próprio elemento
+    // 🔐 guarda se é correta e um id estável no próprio elemento
     div.dataset.correct = opt.correct ? "1" : "0";
     div.dataset.type = opt.type;
 
@@ -156,11 +159,13 @@ function loadQuestion() {
     }
 
     // Detecta se tem 1 ou várias corretas
-    const correctCount = q.options.filter(o => o.correct).length;
+    const correctCount = q.options.filter((o) => o.correct).length;
 
     div.addEventListener("click", () => {
       if (correctCount === 1) {
-        optionsEl.querySelectorAll(".option").forEach(o => o.classList.remove("selected"));
+        optionsEl
+          .querySelectorAll(".option")
+          .forEach((o) => o.classList.remove("selected"));
         div.classList.add("selected");
       } else {
         div.classList.toggle("selected");
@@ -181,40 +186,39 @@ function loadQuestion() {
   feedbackEl.textContent = "";
   feedbackEl.className = "";
 
-  optionsEl.querySelectorAll(".option").forEach(el => {
-    el.classList.remove("correct-reveal", "wrong-reveal", "selected");
+  optionsEl.querySelectorAll(".option").forEach((el) => {
+    el.classList.remove("correct-reveal", "wrong-reveal", "selected", "correct", "wrong");
     el.style.pointerEvents = "";
   });
 
   // reseta a “segunda chance” ao entrar na pergunta
   q._triedOnce = false;
 
-  // se você usa o modo "Próxima", reseta também:
+  // reseta o modo "Próxima", se estiver ativo
   if (typeof awaitingNext !== "undefined") {
     awaitingNext = false;
     submitBtn.textContent = "✅ Confirmar";
   }
 }
 
-// Destaca corretas/erradas e bloqueia interação até avançar
+// ====== REVELAR GABARITO (CORRIGIDO) ======
+// Destaca corretas/erradas usando os dados do próprio elemento (independe do embaralhamento)
 function revealCorrectAnswers(q) {
-  console.log("Revelando respostas corretas", q.options);
-
   const optionEls = [...optionsEl.querySelectorAll(".option")];
 
-  optionEls.forEach((el, i) => {
-    const opt = q.options[i];
+  optionEls.forEach((el) => {
+    const isCorrect = el.dataset.correct === "1";
 
-    if (opt?.correct) {
-      el.classList.add("correct-reveal");
-    }
-
-    if (el.classList.contains("selected") && !opt?.correct) {
-      el.classList.add("wrong-reveal");
-    }
-
-    // trava interação até avançar
+    // remove seleção e bloqueia novas interações
+    el.classList.remove("selected");
     el.style.pointerEvents = "none";
+
+    // aplica as classes específicas de "revelação" previstas no CSS
+    el.classList.toggle("correct-reveal", isCorrect);
+    el.classList.toggle("wrong-reveal", !isCorrect);
+
+    // garante que classes antigas não interfiram (se existirem)
+    el.classList.remove("correct", "wrong");
   });
 }
 
@@ -240,23 +244,24 @@ function checkAnswer() {
   }
 
   submitBtn.disabled = true;
+
   const q = questions[currentQuestion];
   const optionEls = [...optionsEl.querySelectorAll(".option")];
 
   // Conjunto do gabarito (corretas)
   const correctSet = new Set(
     q.options
-      .filter(o => o.correct)
-      .map(o =>
-        (o.type === "text"
-          ? (o.text || "")
-          : (o.src || "").split("/").pop()
-        ).trim().toLowerCase()
+      .filter((o) => o.correct)
+      .map((o) =>
+        (o.type === "text" ? (o.text || "") : (o.src || "").split("/").pop())
+          .trim()
+          .toLowerCase()
       )
   );
 
   // Selecionadas pelo usuário
-  const selectedEls = optionEls.filter(el => el.classList.contains("selected"));
+  const selectedEls = optionEls.filter((el) => el.classList.contains("selected"));
+
   if (selectedEls.length === 0) {
     feedbackEl.textContent = "⚠️ Escolha uma opção!";
     submitBtn.disabled = false;
@@ -264,7 +269,7 @@ function checkAnswer() {
   }
 
   const selectedSet = new Set(
-    selectedEls.map(el => {
+    selectedEls.map((el) => {
       const img = el.querySelector("img");
       return img
         ? img.src.split("/").pop().trim().toLowerCase()
@@ -273,7 +278,7 @@ function checkAnswer() {
   );
 
   // Função para comparar conjuntos
-  const setsAreEqual = (A, B) => A.size === B.size && [...A].every(x => B.has(x));
+  const setsAreEqual = (A, B) => A.size === B.size && [...A].every((x) => B.has(x));
   const acerto = setsAreEqual(selectedSet, correctSet);
 
   // ✅ ACERTO
@@ -321,6 +326,7 @@ function checkAnswer() {
   playSound("wrong");
   updateHud();
 
+  // Revela usando os dados do DOM (corrigido)
   revealCorrectAnswers(q);
   lastQuestionRevealed = q;
 
@@ -337,7 +343,6 @@ function checkAnswer() {
   submitBtn.textContent = "➡️ Próxima";
   submitBtn.disabled = false;
 }
-
 
 function updateHud() {
   scoreEl.textContent = "⭐ Pontuação: " + score;

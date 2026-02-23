@@ -247,6 +247,19 @@ body {
   }
 }
 
+.option.correct {
+  background: #4caf50;
+  color: white;
+  border-color: #388e3c;
+}
+
+.option.wrong {
+  background: #f44336;
+  color: white;
+  border-color: #b71c1c;
+}
+
+
 /* ====== RESPONSIVIDADE ====== */
 @media (max-width: 480px) {
   #hud {
