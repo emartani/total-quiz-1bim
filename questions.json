@@ -1,7 +1,29 @@
 {
   "3-materias": [
     {
-      "text": "Em quais períodos do dia você normalmente realiza atividades?",
+      "text": "Como são chamados os grupos de pessoas que podem ou não viverem juntas, mas partilham características em comum? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Famílias", "correct": false },
+        { "type": "text", "text": "Comunidades", "correct": true }
+      ]
+    },
+    {
+      "text": "Quando nascemos, qual é a primeira comunidade da qual fazemos parte? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Família", "correct": true },
+        { "type": "text", "text": "time de futebol", "correct": false }
+      ]
+    },
+    {
+      "text": "Selecione alguns exemplos de atitudes para garantir a boa convivência entre todos: [2 corretas]",
+      "options": [
+        { "type": "text", "text": "Respeitar as diferenças entre as pessoas", "correct": true },
+        { "type": "text", "text": "Ouvir música com som alto de madrugada", "correct": false },
+        { "type": "text", "text": "Ser gentil e educado com as pessoas", "correct": true }
+      ]
+    },
+        {
+      "text": "Em quais períodos do dia você normalmente realiza atividades? [3 corretas]",
       "options": [
         { "type": "text", "text": "Madrugada", "correct": false },
         { "type": "text", "text": "Manhã", "correct": true },
@@ -10,7 +32,7 @@
       ]
     },
     {
-      "text": "Quais atividades você costuma realizar pela manhã?",
+      "text": "Quais atividades você costuma realizar pela manhã? [2 corretas]",
       "options": [
         { "type": "text", "text": "Acordar", "correct": true },
         { "type": "text", "text": "Tomar café da manhã", "correct": true },
@@ -18,7 +40,7 @@
       ]
     },
     {
-      "text": "Quais atividades vecê costuma realizar a noite?",
+      "text": "Quais atividades você costuma realizar a noite? [2 corretas]",
       "options": [
         { "type": "text", "text": "Dormir", "correct": true },
         { "type": "text", "text": "Tomar café da manhã", "correct": false },
@@ -26,7 +48,7 @@
       ]
     },
     {
-      "text": "Marque as imagens que mostram instrumentos para marcar as horas:",
+      "text": "Marque as imagens que mostram instrumentos para marcar as horas: [5 corretas]",
       "options": [
         { "type": "image", "src": "img/ampulheta.png",     "correct": true },
         { "type": "image", "src": "img/relogio_pulso.png", "correct": true },
@@ -36,8 +58,9 @@
         { "type": "image", "src": "img/radio_relogio.png", "correct": true }
       ]
     },
+
     {
-      "text": "Um conjunto de casas, terrenos e outras construções é delimitado por ruas ou avenidas, formando uma:",
+      "text": "Um conjunto de casas, terrenos e outras construções é delimitado por ruas ou avenidas, formando uma: [1 correta]",
       "options": [
         { "type": "text", "text": "Quadra ou quarteirão", "correct": true },
         { "type": "text", "text": "Comunidade", "correct": false },
@@ -45,7 +68,7 @@
       ]
     },
     {
-      "text": "Um conjunto de quadras ou quarteirões forma:",
+      "text": "Um conjunto de quadras ou quarteirões forma: [1 correta]",
       "options": [
         { "type": "text", "text": "uma rua", "correct": false },
         { "type": "text", "text": "uma avenida", "correct": false },
@@ -53,7 +76,7 @@
       ]
     },
     {
-      "text": "O grupo de pessoas que mora no bairro é chamada de:",
+      "text": "O grupo de pessoas que mora no bairro é chamada de: [1 correta]",
       "options": [
         { "type": "text", "text": "vila", "correct": false },
         { "type": "text", "text": "comunidade", "correct": true },
@@ -61,7 +84,7 @@
       ]
     },
     {
-      "text": "O conjuntos de bairros forma:",
+      "text": "O conjuntos de bairros forma: [1 correta]",
       "options": [
         { "type": "text", "text": "um município", "correct": true },
         { "type": "text", "text": "um país", "correct": false },
@@ -69,117 +92,22 @@
       ]
     },
       {
-      "text": "Selecione os itens que fazem parte de um endereço e que precisamos para enviar uma carta:",
+      "text": "Selecione algumas diferenças entre as pessoas, que nos ajuam a conhecer novas culturas: [6 corretas]",
       "options": [
-        { "type": "text", "text": "nome da rua ou avenida", "correct": true },
-        { "type": "text", "text": "país", "correct": true },
-        { "type": "text", "text": "estado", "correct": true },
-        { "type": "text", "text": "número da casa", "correct": true },
-        { "type": "text", "text": "nome do planeta", "correct": false },
-        { "type": "text", "text": "bairro", "correct": true },
-        { "type": "text", "text": "CEP", "correct": true },
-        { "type": "text", "text": "cidade", "correct": true }
+        { "type": "text", "text": "roupas", "correct": true },
+        { "type": "text", "text": "comidas", "correct": true },
+        { "type": "text", "text": "músicas", "correct": true },
+        { "type": "text", "text": "costumes", "correct": true },
+        { "type": "text", "text": "línguas", "correct": true },
+        { "type": "text", "text": "religiões", "correct": true },
+        { "type": "text", "text": "cor da camiseta", "correct": false }
       ]
     }
   ],
   "ciências naturais": [
     {
-      "text": "Cada ser vivo está adaptado ao ambiente em que vive naturalmente, chamado de:",
-      "options": [
-        { "type": "text", "text": "hábitat", "correct": true },
-        { "type": "text", "text": "natureza", "correct": false },
-        { "type": "text", "text": "floresta", "correct": false }
-      ]
-    },
-    {
-      "text": "Cada planta e animal tem .............. que combinam com o hábitat e os recursos encontrados nele.",
-      "options": [
-        { "type": "text", "text": "características", "correct": true },
-        { "type": "text", "text": "um hábitat", "correct": false },
-        { "type": "text", "text": "alimentos", "correct": false }
-      ]
-    },
-    {
-      "text": "Não sou um peixe, mas nado muito bem. Meu corpo está adaptado a vida no mar. Eu me alimento de peixes e de polvos e vivo em uma região gelada da Terra, chamada Polo Norte. Que animal eu sou?",
-      "options": [
-        { "type": "text", "text": "Cobra dágua", "correct": false },
-        { "type": "text", "text": "Tilápia", "correct": false },
-        { "type": "text", "text": "Foca", "correct": true }
-      ]
-    },
-    {
-      "text": "Qual característica ajuda o cacto a sobreviver no deserto?",
-      "options": [
-        { "type": "text", "text": "Asas pontudas", "correct": false },
-        { "type": "text", "text": "Folhas grandes", "correct": false },
-        { "type": "text", "text": "Espinhos que ajudam a guardar água", "correct": true }
-      ]
-    },
-    {
-      "text": "O meio ambiente é o local onde se vive, e é formado por: (SELECIONE DUAS OPÇÕES)",
-      "options": [
-        { "type": "text", "text": "ambientes naturais", "correct": true },
-        { "type": "text", "text": "ambientes construídos", "correct": true },
-        { "type": "text", "text": "ambientes virtuais", "correct": false }
-      ]
-    },
-    {
-      "text": "Quais são os ambientes naturais existentes no Brasil?",
-      "options": [
-        { "type": "text", "text": "Floresta Amazônica", "correct": true },
-        { "type": "text", "text": "Cerrado", "correct": true },
-        { "type": "text", "text": "Mata Atlântica", "correct": true },
-        { "type": "text", "text": "Pampas", "correct": true },
-        { "type": "text", "text": "Caatinga", "correct": true },
-        { "type": "text", "text": "Pantanal", "correct": true },
-        { "type": "text", "text": "Geleira", "correct": false }
-      ]
-    },
-    {
-      "text": "Quais são os ambientes construídos pelo ser humano, utilizando os recursos da natureza?",
-      "options": [
-        { "type": "text", "text": "ambientes urbanos", "correct": true },
-        { "type": "text", "text": "ambientes rurais", "correct": true },
-        { "type": "text", "text": "floresta", "correct": false }
-      ]
-    },
-    {
-      "text": "Selecione exemplos de ambientes construídos pelo ser humano:",
-      "options": [
-        { "type": "text", "text": "cidade", "correct": true },
-        { "type": "text", "text": "fazenda", "correct": true },
-        { "type": "text", "text": "rio", "correct": false }
-      ]
-    },
-    {
-      "text": "Selecione exemplos de ambientes naturais:",
-      "options": [
-        { "type": "text", "text": "cidade", "correct": false },
-        { "type": "text", "text": "montanhas", "correct": true },
-        { "type": "text", "text": "mata", "correct": true }
-      ]
-    },
-    {
-      "text": "Quais são as atividades do ser humano que prejudicam o meio ambiente?",
-      "options": [
-        { "type": "text", "text": "Desmatamento", "correct": true },
-        { "type": "text", "text": "Queimadas", "correct": true },
-        { "type": "text", "text": "Caça", "correct": true },
-        { "type": "text", "text": "Poluição do ar, da água e do solo", "correct": true },
-        { "type": "text", "text": "Jogar lixo na lixeira", "correct": false },
-        { "type": "text", "text": "Plantar árvores", "correct": false }
-      ]
-    },
-    {
-      "text": "Quais são algumas das ações humanas que cuidam do meio ambiente?",
-      "options": [
-        { "type": "text", "text": "Adotar animais", "correct": true },
-        { "type": "text", "text": "Economiza água e energia", "correct": true },
-        { "type": "text", "text": "Caçar animais", "correct": false },
-        { "type": "text", "text": "Poluição do ar, da água e do solo", "correct": false },
-        { "type": "text", "text": "Jogar lixo na lixeira", "correct": true },
-        { "type": "text", "text": "Plantar árvores", "correct": true }
-      ]
+      "text": "⚠️ Conteúdo desta seção está em desenvolvimento. Novas atividades serão publicadas em breve.",
+      "options": []
     }
   ],
   "português": [
