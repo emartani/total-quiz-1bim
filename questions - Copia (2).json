@@ -1,0 +1,195 @@
+{
+  "3-materias": [
+    {
+      "text": "Como são chamados os grupos de pessoas que podem ou não viverem juntas, mas partilham características em comum? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Famílias", "correct": false },
+        { "type": "text", "text": "Comunidades", "correct": true }
+      ]
+    },
+    {
+      "text": "Quando nascemos, qual é a primeira comunidade da qual fazemos parte? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Família", "correct": true },
+        { "type": "text", "text": "time de futebol", "correct": false }
+      ]
+    },
+    {
+      "text": "Selecione alguns exemplos de atitudes para garantir a boa convivência entre todos: [2 corretas]",
+      "options": [
+        { "type": "text", "text": "Respeitar as diferenças entre as pessoas", "correct": true },
+        { "type": "text", "text": "Ouvir música com som alto de madrugada", "correct": false },
+        { "type": "text", "text": "Ser gentil e educado com as pessoas", "correct": true }
+      ]
+    },
+        {
+      "text": "Em quais períodos do dia você normalmente realiza atividades? [3 corretas]",
+      "options": [
+        { "type": "text", "text": "Madrugada", "correct": false },
+        { "type": "text", "text": "Manhã", "correct": true },
+        { "type": "text", "text": "Noite", "correct": true },
+        { "type": "text", "text": "Tarde", "correct": true }
+      ]
+    },
+    {
+      "text": "Quais atividades você costuma realizar pela manhã? [2 corretas]",
+      "options": [
+        { "type": "text", "text": "Acordar", "correct": true },
+        { "type": "text", "text": "Tomar café da manhã", "correct": true },
+        { "type": "text", "text": "Jantar", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais atividades você costuma realizar a noite? [2 corretas]",
+      "options": [
+        { "type": "text", "text": "Dormir", "correct": true },
+        { "type": "text", "text": "Tomar café da manhã", "correct": false },
+        { "type": "text", "text": "Jantar", "correct": true }
+      ]
+    },
+    {
+      "text": "Marque as imagens que mostram instrumentos para marcar as horas: [5 corretas]",
+      "options": [
+        { "type": "image", "src": "img/ampulheta.png",     "correct": true },
+        { "type": "image", "src": "img/relogio_pulso.png", "correct": true },
+        { "type": "image", "src": "img/relogio_cuco.png",  "correct": true },
+        { "type": "image", "src": "img/relogio_sol.png",  "correct": true },
+        { "type": "image", "src": "img/calendario.png",  "correct": false },
+        { "type": "image", "src": "img/radio_relogio.png", "correct": true }
+      ]
+    },
+
+    {
+      "text": "Um conjunto de casas, terrenos e outras construções é delimitado por ruas ou avenidas, formando uma: [1 correta]",
+      "options": [
+        { "type": "text", "text": "Quadra ou quarteirão", "correct": true },
+        { "type": "text", "text": "Comunidade", "correct": false },
+        { "type": "text", "text": "Montanha", "correct": false }
+      ]
+    },
+    {
+      "text": "Um conjunto de quadras ou quarteirões forma: [1 correta]",
+      "options": [
+        { "type": "text", "text": "uma rua", "correct": false },
+        { "type": "text", "text": "uma avenida", "correct": false },
+        { "type": "text", "text": "um bairro", "correct": true }
+      ]
+    },
+    {
+      "text": "O grupo de pessoas que mora no bairro é chamada de: [1 correta]",
+      "options": [
+        { "type": "text", "text": "vila", "correct": false },
+        { "type": "text", "text": "comunidade", "correct": true },
+        { "type": "text", "text": "vizinhos", "correct": false }
+      ]
+    },
+    {
+      "text": "O conjuntos de bairros forma: [1 correta]",
+      "options": [
+        { "type": "text", "text": "um município", "correct": true },
+        { "type": "text", "text": "um país", "correct": false },
+        { "type": "text", "text": "uma rua", "correct": false }
+      ]
+    },
+      {
+      "text": "Selecione algumas diferenças entre as pessoas, que nos ajuam a conhecer novas culturas: [6 corretas]",
+      "options": [
+        { "type": "text", "text": "roupas", "correct": true },
+        { "type": "text", "text": "comidas", "correct": true },
+        { "type": "text", "text": "músicas", "correct": true },
+        { "type": "text", "text": "costumes", "correct": true },
+        { "type": "text", "text": "línguas", "correct": true },
+        { "type": "text", "text": "religiões", "correct": true },
+        { "type": "text", "text": "cor da camiseta", "correct": false }
+      ]
+    }
+  ],
+  "ciências naturais": [
+    {
+      "text": "⚠️ Conteúdo desta seção está em desenvolvimento. Novas atividades serão publicadas em breve.",
+      "options": []
+    }
+  ],
+  "português": [
+    {
+      "text": "Quais as vogais da palavra [AMARELO]?",
+      "options": [
+        { "type": "text", "text": "A, E, O", "correct": true },
+        { "type": "text", "text": "A, E, I", "correct": false },
+        { "type": "text", "text": "M, R, L", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais as vogais da palavra [MELANCIA]?",
+      "options": [
+        { "type": "text", "text": "E, A, I", "correct": true },
+        { "type": "text", "text": "E, A, O", "correct": false },
+        { "type": "text", "text": "M, L, N, C", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais as consoantes da palavra [MELANCIA]?",
+      "options": [
+        { "type": "text", "text": "M, L, N, C", "correct": true },
+        { "type": "text", "text": "E, A, I", "correct": false },
+        { "type": "text", "text": "E, A, O", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais as consoantes da palavra [AMARELO]?",
+      "options": [
+        { "type": "text", "text": "M, R, L", "correct": true },
+        { "type": "text", "text": "E, A, I", "correct": false },
+        { "type": "text", "text": "E, A, O", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais encontros vocálicos temos na palavra [DEIXARAM]?",
+      "options": [
+        { "type": "text", "text": "EI", "correct": true },
+        { "type": "text", "text": "XA", "correct": false },
+        { "type": "text", "text": "ARAM", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais encontros vocálicos temos na palavra [CANOA]?",
+      "options": [
+        { "type": "text", "text": "OA", "correct": true },
+        { "type": "text", "text": "EA", "correct": false },
+        { "type": "text", "text": "CA", "correct": false }
+      ]
+    },
+    {
+      "text": "A palavra [SONECA] tem:",
+      "options": [
+        { "type": "text", "text": "6 letras, 3 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": true },
+        { "type": "text", "text": "4 letras, 2 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": false },
+        { "type": "text", "text": "6 letras, 3 sílabas, 3 consoantes (O,E,A) e 3 vogais (S,N,C)", "correct": false }
+      ]
+    },
+    {
+      "text": "A palavra [BORBOLETA] tem:",
+      "options": [
+        { "type": "text", "text": "9 letras, 4 sílabas, 4 consoantes (B,R,L,T) e 3 vogais (O,E,A)", "correct": true },
+        { "type": "text", "text": "8 letras, 3 sílabas, 3 consoantes (S,N,C) e 3 vogais (O,E,A)", "correct": false },
+        { "type": "text", "text": "9 letras, 4 sílabas, 4 consoantes (O,E,A) e 3 vogais (B,R,L,T)", "correct": false }
+      ]
+    },
+    {
+      "text": "Separe as sílabas da palavra [PREJUDICAM]:",
+      "options": [
+        { "type": "text", "text": "PRE-JU-DI-CAM", "correct": true },
+        { "type": "text", "text": "PRE-JU-DI-CA-M", "correct": false },
+        { "type": "text", "text": "P-RE-JU-DI-CAM", "correct": false }
+      ]
+    },
+    {
+      "text": "Separe as sílabas da palavra [ORGANIZANDO]:",
+      "options": [
+        { "type": "text", "text": "OR-GA-NI-ZAN-DO", "correct": true },
+        { "type": "text", "text": "ORG-A-NI-ZA-N-DO", "correct": false },
+        { "type": "text", "text": "O-R-GA-NI-ZA-N-DO", "correct": false }
+      ]
+    }
+  ]
+}

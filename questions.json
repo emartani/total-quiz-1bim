@@ -1,106 +1,107 @@
 {
   "3-materias": [
     {
-      "text": "Como são chamados os grupos de pessoas que podem ou não viverem juntas, mas partilham características em comum? [1 correta]",
+      "text": "Como se chamam os grupos de pessoas que têm algo em comum? [1 correta]",
       "options": [
-        { "type": "text", "text": "Famílias", "correct": false },
-        { "type": "text", "text": "Comunidades", "correct": true }
+        { "type": "text", "text": "Comunidades — grupos de pessoas que compartilham algo em comum.", "correct": true },
+        { "type": "text", "text": "Times de super-heróis saltitantes", "correct": false },
+        { "type": "text", "text": "Clubes secretos de gatos ninjas", "correct": false }
       ]
     },
     {
       "text": "Quando nascemos, qual é a primeira comunidade da qual fazemos parte? [1 correta]",
       "options": [
-        { "type": "text", "text": "Família", "correct": true },
-        { "type": "text", "text": "time de futebol", "correct": false }
+        { "type": "text", "text": "Família — as pessoas que cuidam de nós desde que nascemos.", "correct": true },
+        { "type": "text", "text": "Um time de futebol de bebês", "correct": false },
+        { "type": "text", "text": "A Liga dos Bebês Superpoderosos", "correct": false }
       ]
     },
     {
-      "text": "Selecione alguns exemplos de atitudes para garantir a boa convivência entre todos: [2 corretas]",
+      "text": "Quais atitudes ajudam a convivermos bem com todo mundo? [2 corretas]",
       "options": [
-        { "type": "text", "text": "Respeitar as diferenças entre as pessoas", "correct": true },
-        { "type": "text", "text": "Ouvir música com som alto de madrugada", "correct": false },
-        { "type": "text", "text": "Ser gentil e educado com as pessoas", "correct": true }
-      ]
-    },
-        {
-      "text": "Em quais períodos do dia você normalmente realiza atividades? [3 corretas]",
-      "options": [
-        { "type": "text", "text": "Madrugada", "correct": false },
-        { "type": "text", "text": "Manhã", "correct": true },
-        { "type": "text", "text": "Noite", "correct": true },
-        { "type": "text", "text": "Tarde", "correct": true }
+        { "type": "text", "text": "Respeitar as diferenças — cada pessoa é única e especial.", "correct": true },
+        { "type": "text", "text": "Ser gentil e educado — tratar bem as pessoas ao nosso redor.", "correct": true },
+        { "type": "text", "text": "Ouvir música no último volume de madrugada", "correct": false }
       ]
     },
     {
-      "text": "Quais atividades você costuma realizar pela manhã? [2 corretas]",
+      "text": "Em quais partes do dia você costuma fazer atividades? [3 corretas]",
       "options": [
-        { "type": "text", "text": "Acordar", "correct": true },
-        { "type": "text", "text": "Tomar café da manhã", "correct": true },
-        { "type": "text", "text": "Jantar", "correct": false }
+        { "type": "text", "text": "Manhã — acordar, estudar e começar o dia.", "correct": true },
+        { "type": "text", "text": "Tarde — brincar, passear ou fazer tarefas.", "correct": true },
+        { "type": "text", "text": "Noite — jantar e descansar.", "correct": true },
+        { "type": "text", "text": "Madrugada — só se você fosse um morcego!", "correct": false }
       ]
     },
     {
-      "text": "Quais atividades você costuma realizar a noite? [2 corretas]",
+      "text": "O que você costuma fazer pela manhã? [2 corretas]",
       "options": [
-        { "type": "text", "text": "Dormir", "correct": true },
-        { "type": "text", "text": "Tomar café da manhã", "correct": false },
-        { "type": "text", "text": "Jantar", "correct": true }
+        { "type": "text", "text": "Acordar — começar o dia.", "correct": true },
+        { "type": "text", "text": "Tomar café da manhã — primeira refeição do dia.", "correct": true },
+        { "type": "text", "text": "Jantar — isso é à noite!", "correct": false }
       ]
     },
     {
-      "text": "Marque as imagens que mostram instrumentos para marcar as horas: [5 corretas]",
+      "text": "O que você costuma fazer à noite? [2 corretas]",
       "options": [
-        { "type": "image", "src": "img/ampulheta.png",     "correct": true },
+        { "type": "text", "text": "Dormir — descansar o corpo.", "correct": true },
+        { "type": "text", "text": "Jantar — refeição da noite.", "correct": true },
+        { "type": "text", "text": "Tomar café da manhã de pijama", "correct": false }
+      ]
+    },
+    {
+      "text": "Marque as imagens que mostram instrumentos para ver as horas. [5 corretas]",
+      "options": [
+        { "type": "image", "src": "img/ampulheta.png", "correct": true },
         { "type": "image", "src": "img/relogio_pulso.png", "correct": true },
-        { "type": "image", "src": "img/relogio_cuco.png",  "correct": true },
-        { "type": "image", "src": "img/relogio_sol.png",  "correct": true },
-        { "type": "image", "src": "img/calendario.png",  "correct": false },
-        { "type": "image", "src": "img/radio_relogio.png", "correct": true }
-      ]
-    },
-
-    {
-      "text": "Um conjunto de casas, terrenos e outras construções é delimitado por ruas ou avenidas, formando uma: [1 correta]",
-      "options": [
-        { "type": "text", "text": "Quadra ou quarteirão", "correct": true },
-        { "type": "text", "text": "Comunidade", "correct": false },
-        { "type": "text", "text": "Montanha", "correct": false }
+        { "type": "image", "src": "img/relogio_cuco.png", "correct": true },
+        { "type": "image", "src": "img/relogio_sol.png", "correct": true },
+        { "type": "image", "src": "img/radio_relogio.png", "correct": true },
+        { "type": "image", "src": "img/calendario.png", "correct": false }
       ]
     },
     {
-      "text": "Um conjunto de quadras ou quarteirões forma: [1 correta]",
+      "text": "Um conjunto de casas e prédios cercado por ruas forma uma: [1 correta]",
       "options": [
-        { "type": "text", "text": "uma rua", "correct": false },
-        { "type": "text", "text": "uma avenida", "correct": false },
-        { "type": "text", "text": "um bairro", "correct": true }
+        { "type": "text", "text": "Quadra — parte da cidade entre ruas.", "correct": true },
+        { "type": "text", "text": "Montanha de algodão-doce", "correct": false },
+        { "type": "text", "text": "Castelo dos viajantes do tempo", "correct": false }
       ]
     },
     {
-      "text": "O grupo de pessoas que mora no bairro é chamada de: [1 correta]",
+      "text": "Um conjunto de quadras forma: [1 correta]",
       "options": [
-        { "type": "text", "text": "vila", "correct": false },
-        { "type": "text", "text": "comunidade", "correct": true },
-        { "type": "text", "text": "vizinhos", "correct": false }
+        { "type": "text", "text": "Um bairro — uma parte maior da cidade.", "correct": true },
+        { "type": "text", "text": "Uma rua que nunca acaba", "correct": false },
+        { "type": "text", "text": "Uma avenida que dá voltas sozinha", "correct": false }
       ]
     },
     {
-      "text": "O conjuntos de bairros forma: [1 correta]",
+      "text": "O grupo de pessoas que mora no mesmo bairro se chama: [1 correta]",
       "options": [
-        { "type": "text", "text": "um município", "correct": true },
-        { "type": "text", "text": "um país", "correct": false },
-        { "type": "text", "text": "uma rua", "correct": false }
+        { "type": "text", "text": "Comunidade — pessoas que vivem no mesmo bairro.", "correct": true },
+        { "type": "text", "text": "Vizinhos invisíveis", "correct": false },
+        { "type": "text", "text": "Turma dos robôs dançarinos", "correct": false }
       ]
     },
-      {
-      "text": "Selecione algumas diferenças entre as pessoas, que nos ajuam a conhecer novas culturas: [6 corretas]",
+    {
+      "text": "O conjunto de vários bairros forma: [1 correta]",
       "options": [
-        { "type": "text", "text": "roupas", "correct": true },
-        { "type": "text", "text": "comidas", "correct": true },
-        { "type": "text", "text": "músicas", "correct": true },
-        { "type": "text", "text": "costumes", "correct": true },
-        { "type": "text", "text": "línguas", "correct": true },
-        { "type": "text", "text": "religiões", "correct": true },
-        { "type": "text", "text": "cor da camiseta", "correct": false }
+        { "type": "text", "text": "Um município — a cidade onde vivemos.", "correct": true },
+        { "type": "text", "text": "Um país misterioso", "correct": false },
+        { "type": "text", "text": "Uma rua com superpoderes", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais diferenças entre as pessoas ajudam a conhecer novas culturas? [6 corretas]",
+      "options": [
+        { "type": "text", "text": "Roupas — diferentes estilos e modos de vestir.", "correct": true },
+        { "type": "text", "text": "Comidas — sabores de vários lugares.", "correct": true },
+        { "type": "text", "text": "Músicas — ritmos e sons diferentes.", "correct": true },
+        { "type": "text", "text": "Costumes — jeitos de viver e agir.", "correct": true },
+        { "type": "text", "text": "Línguas — formas diferentes de falar.", "correct": true },
+        { "type": "text", "text": "Religiões — diferentes crenças.", "correct": true },
+        { "type": "text", "text": "A cor da camiseta do cachorro", "correct": false }
       ]
     }
   ],
