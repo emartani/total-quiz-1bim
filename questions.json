@@ -106,9 +106,272 @@
     }
   ],
   "ciências naturais": [
+      {
+      "text": "Quais são os sentidos que usamos para perceber o mundo? [6 corretas]",
+      "options": [
+        { "type": "text", "text": "Visão — usamos os olhos para ver o que está ao nosso redor.", "correct": true },
+        { "type": "text", "text": "Audição — usamos as orelhas para ouvir sons e vozes.", "correct": true },
+        { "type": "text", "text": "Tato — a pele sente toque, temperatura e textura.", "correct": true },
+        { "type": "text", "text": "Olfato — o nariz sente cheiros do ambiente.", "correct": true },
+        { "type": "text", "text": "Paladar — a língua percebe gostos como doce e salgado.", "correct": true },
+        { "type": "text", "text": "Equilíbrio — ajuda o corpo a saber se estamos parados ou em movimento.", "correct": true },
+        { "type": "text", "text": "Telepatia de super-herói (só funciona em histórias em quadrinhos!).", "correct": false },
+        { "type": "text", "text": "Radar de pizza que apita quando a fome chega.", "correct": false },
+        { "type": "text", "text": "Antena de unicórnio para achar arco-íris.", "correct": false }
+      ]
+    },
     {
-      "text": "⚠️ Conteúdo desta seção está em desenvolvimento. Novas atividades serão publicadas em breve.",
-      "options": []
+      "text": "O que precisamos para enxergar um objeto? [2 corretas]",
+      "options": [
+        { "type": "text", "text": "Olhar na direção do objeto — os olhos precisam estar voltados para ele.", "correct": true },
+        { "type": "text", "text": "Luz — a luz entra pela pupila e a imagem é formada no cérebro.", "correct": true },
+        { "type": "text", "text": "Ouvir música alta para animar os olhos.", "correct": false },
+        { "type": "text", "text": "Comer chocolate para ligar o modo visão turbo.", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual parte do olho é a parte colorida que vemos? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Íris — é a parte colorida do olho.", "correct": true },
+        { "type": "text", "text": "Gelatina ocular — parece nome de sobremesa!", "correct": false },
+        { "type": "text", "text": "Arco-íris de bolso que mora no olho.", "correct": false }
+      ]
+    },
+    {
+      "text": "Para que serve a pupila nos olhos? [1 correta]",
+      "options": [
+        { "type": "text", "text": "É o buraquinho por onde a luz entra no olho.", "correct": true },
+        { "type": "text", "text": "É a porta por onde as ideias saem voando.", "correct": false },
+        { "type": "text", "text": "É o botão secreto de ligar e desligar os olhos.", "correct": false }
+      ]
+    },
+    {
+      "text": "Onde fica o sentido do equilíbrio no nosso corpo? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Nos labirintos da parte interna das orelhas — eles ajudam a manter o corpo estável.", "correct": true },
+        { "type": "text", "text": "No dedão do pé, guardado junto com as meias.", "correct": false },
+        { "type": "text", "text": "No chapéu invisível que todo mundo usa sem saber.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que é labirintite? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Um problema nos labirintos da orelha interna que pode causar tontura e sensação de que tudo gira.", "correct": true },
+        { "type": "text", "text": "Vontade gigante de desenhar labirintos o dia inteiro.", "correct": false },
+        { "type": "text", "text": "Doença causada por se perder em um labirinto de papel.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que são sons e como chegam até nós? [1 correta]",
+      "options": [
+        { "type": "text", "text": "São vibrações que viajam pelo ar, pela água ou pelo chão e chegam às nossas orelhas.", "correct": true },
+        { "type": "text", "text": "São desenhos invisíveis que o vento faz para enfeitar o céu.", "correct": false },
+        { "type": "text", "text": "São recados secretos enviados por pombos ninja.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que acontece com o som quando há uma porta fechada entre você e quem fala? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Fica mais difícil ouvir, porque a barreira atrapalha a passagem do som.", "correct": true },
+        { "type": "text", "text": "O som vira sorvete e derrete do outro lado.", "correct": false },
+        { "type": "text", "text": "A porta traduz tudo para a língua dos móveis.", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual é o órgão do tato e para que ele serve? [1 correta]",
+      "options": [
+        { "type": "text", "text": "A pele — é o maior órgão do corpo; protege e ajuda a sentir toque, calor, frio e dor.", "correct": true },
+        { "type": "text", "text": "O cabelo — penteado macio sente tudo por nós.", "correct": false },
+        { "type": "text", "text": "As sobrancelhas — régua oficial de medir cócegas.", "correct": false }
+      ]
+    },
+    {
+      "text": "Por que sentimos dor quando algo machuca a pele? [1 correta]",
+      "options": [
+        { "type": "text", "text": "É um aviso do corpo para nos proteger e evitar mais machucados.", "correct": true },
+        { "type": "text", "text": "Para ganhar pontos extras no jogo da vida.", "correct": false },
+        { "type": "text", "text": "Porque a pele está pedindo um chocolate quente.", "correct": false }
+      ]
+    },
+    {
+      "text": "Como sentimos cheiros? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Partículas de odor entram pelo nariz e são reconhecidas por estruturas no teto da cavidade nasal, que avisam o cérebro.", "correct": true },
+        { "type": "text", "text": "O nariz lê quadrinhos perfumados que ficam no ar.", "correct": false },
+        { "type": "text", "text": "Cheiros são mensagens por Wi‑Fi enviadas pelas flores.", "correct": false }
+      ]
+    },
+    {
+      "text": "Por que quando estamos resfriados fica difícil sentir cheiros? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Porque o nariz produz muito muco, que atrapalha a chegada das partículas de odor até os sensores.", "correct": true },
+        { "type": "text", "text": "Porque o nariz foi tirar uma soneca sem avisar.", "correct": false },
+        { "type": "text", "text": "Porque os cheiros ficam tímidos e fogem da gente.", "correct": false }
+      ]
+    },
+    {
+      "text": "Quais são os cinco gostos que a língua consegue perceber? [5 corretas]",
+      "options": [
+        { "type": "text", "text": "Doce", "correct": true },
+        { "type": "text", "text": "Salgado", "correct": true },
+        { "type": "text", "text": "Amargo", "correct": true },
+        { "type": "text", "text": "Azedo", "correct": true },
+        { "type": "text", "text": "Umami — gosto presente em alimentos ricos em proteína, como carnes, queijos e tomate.", "correct": true },
+        { "type": "text", "text": "Sabor de internet 5G.", "correct": false },
+        { "type": "text", "text": "Gosto de nuvem fofinha.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que é o gosto umami? [1 correta]",
+      "options": [
+        { "type": "text", "text": "É um gosto percebido pela língua em alimentos ricos em proteína, como carnes, queijos, cogumelos e tomate.", "correct": true },
+        { "type": "text", "text": "É o gosto misterioso do espaço sideral.", "correct": false },
+        { "type": "text", "text": "É o sabor que aparece quando a comida conta piadas.", "correct": false }
+      ]
+    },
+    {
+      "text": "Como os morcegos conseguem se localizar no escuro? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Eles emitem sons e escutam o eco voltando; assim descobrem onde estão os objetos (ecolocalização).", "correct": true },
+        { "type": "text", "text": "Usam óculos de visão noturna comprados na caverna shop.", "correct": false },
+        { "type": "text", "text": "Têm um mini-GPS instalado nas asas.", "correct": false }
+      ]
+    },
+    {
+      "text": "Para que serve a língua bifurcada das serpentes? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Para captar partículas de cheiro do ar e levar para aberturas no céu da boca, ajudando a encontrar a presa.", "correct": true },
+        { "type": "text", "text": "Para fazer careta dupla e assustar o espelho.", "correct": false },
+        { "type": "text", "text": "Para segurar sorvete dos dois lados ao mesmo tempo.", "correct": false }
+      ]
+    },
+    {
+      "text": "Por que devemos respeitar quem usa óculos, aparelho auditivo, bengala ou Libras? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Porque cada pessoa percebe o mundo de um jeito; incluir e respeitar todo mundo é o que torna a turma mais justa e legal.", "correct": true },
+        { "type": "text", "text": "Porque o diretor da escola dá um adesivo brilhante para quem concorda com tudo.", "correct": false },
+        { "type": "text", "text": "Porque assim a sala ganha uma viagem para Marte.", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual é a parte branca do olho e o que ela faz? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Esclera — é a parte branca que ajuda a dar o formato redondo do olho.", "correct": true },
+        { "type": "text", "text": "Espuma mágica — deixa o olho fofinho como nuvem.", "correct": false },
+        { "type": "text", "text": "Casca de ovo — protege o olho como uma concha de praia.", "correct": false }
+      ]
+    },
+    {
+      "text": "Para que serve a pálpebra? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Proteger e umidificar os olhos ao abrir e fechar (piscar).", "correct": true },
+        { "type": "text", "text": "Abanar para os amigos o dia inteiro como um leque.", "correct": false },
+        { "type": "text", "text": "Guardar sonhos para usar no recreio.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que são os cílios e como eles ajudam? [1 correta]",
+      "options": [
+        { "type": "text", "text": "São pelinhos na borda da pálpebra que ajudam a proteger os olhos de poeira e ciscos.", "correct": true },
+        { "type": "text", "text": "São mini vassouras para pentear a sobrancelha do olho.", "correct": false },
+        { "type": "text", "text": "São antenas para pegar sinal de desenho animado.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que é o supercílio? [1 correta]",
+      "options": [
+        { "type": "text", "text": "É a sobrancelha — a faixa de pelos que fica acima dos olhos.", "correct": true },
+        { "type": "text", "text": "É um super-herói que mora dentro do olho.", "correct": false },
+        { "type": "text", "text": "É um fio elétrico que liga o olho ao sorriso.", "correct": false }
+      ]
+    },
+    {
+      "text": "Por que piscamos várias vezes ao dia? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Para espalhar uma camada de lágrima que limpa e deixa o olho molhadinho e protegido.", "correct": true },
+        { "type": "text", "text": "Para treinar o olho a dançar pisca‑pisca de Natal.", "correct": false },
+        { "type": "text", "text": "Porque o olho gosta de tirar sonecas rapidinhas o tempo todo.", "correct": false }
+      ]
+    },
+    {
+      "text": "Qual cuidado os cílios dão quando um cisco se aproxima? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Eles ajudam a impedir que o cisco entre no olho, fazendo a gente piscar para proteger.", "correct": true },
+        { "type": "text", "text": "Eles assopram o cisco para o espaço como um foguete.", "correct": false },
+        { "type": "text", "text": "Eles viram guarda-chuva e abrem no rosto.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que acontece com o volume de um som quando estamos mais perto do lugar onde ele é produzido? [1 correta]",
+      "options": [
+        { "type": "text", "text": "O som fica mais alto, porque quanto mais perto estamos, maior é a intensidade (o volume) que chega até nossos ouvidos.", "correct": true },
+        { "type": "text", "text": "O som fica tímido e fala baixinho porque não gosta de plateia.", "correct": false },
+        { "type": "text", "text": "O som some completamente, como se tivesse apertado um botão de desaparecer.", "correct": false }
+      ]
+    },
+    {
+      "text": "Como os cheiros desagradáveis podem nos ajudar? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Eles podem nos proteger, avisando quando um alimento está estragado ou quando há perigo, como cheiro de fumaça.", "correct": true },
+        { "type": "text", "text": "Eles servem para treinar o nariz a virar um super-herói caçador de fedor.", "correct": false },
+        { "type": "text", "text": "Eles avisam que um monstro invisível acabou de passar correndo.", "correct": false }
+      ]
+    },
+    {
+      "text": "Por que dizemos que cada pessoa é única? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Porque cada um tem jeitos, talentos e dificuldades diferentes; não existem pessoas exatamente iguais.", "correct": true },
+        { "type": "text", "text": "Porque alguns têm um clone secreto guardado no armário da escola.", "correct": false },
+        { "type": "text", "text": "Porque todo mundo nasce no mesmo dia e com o mesmo penteado.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que é uma aptidão? [1 correta]",
+      "options": [
+        { "type": "text", "text": "É uma capacidade, natural ou aprendida, que ajuda a realizar uma tarefa.", "correct": true },
+        { "type": "text", "text": "É um superpoder que só aparece quando a mochila está muito pesada.", "correct": false },
+        { "type": "text", "text": "É o nome secreto do lanche que dá energia infinita.", "correct": false }
+      ]
+    },
+    {
+      "text": "O que é uma limitação? [1 correta]",
+      "options": [
+        { "type": "text", "text": "É uma dificuldade, natural ou adquirida, para realizar uma tarefa.", "correct": true },
+        { "type": "text", "text": "É um quebra‑molas invisível que só atrapalha quem corre no corredor.", "correct": false },
+        { "type": "text", "text": "É a regra que proíbe risadas durante a aula de artes.", "correct": false }
+      ]
+    },
+    {
+      "text": "Por que é importante respeitar e incluir todas as pessoas? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Porque todos merecem participar e aprender juntos, mesmo com jeitos e necessidades diferentes.", "correct": true },
+        { "type": "text", "text": "Porque quem não for igual precisa esperar no banco de reservas da turma.", "correct": false },
+        { "type": "text", "text": "Porque a sala de aula ganha pontos para trocar por figurinhas raras.", "correct": false }
+      ]
+    },
+    {
+      "text": "Para que servem óculos e aparelhos auditivos? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Para diminuir limitações de visão e audição, ajudando a pessoa no dia a dia.", "correct": true },
+        { "type": "text", "text": "Para ouvir pensamentos de gatos e enxergar através das paredes.", "correct": false },
+        { "type": "text", "text": "Para combinar com fantasias de super-herói no recreio.", "correct": false }
+      ]
+    },
+    {
+      "text": "Como uma pessoa com deficiência visual pode perceber obstáculos ao andar? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Usando bengala, que ajuda a detectar obstáculos no caminho.", "correct": true },
+        { "type": "text", "text": "Chamando um foguete escolta para abrir espaço no corredor.", "correct": false },
+        { "type": "text", "text": "Pedindo para as carteiras fazerem fila e dançarem para o lado.", "correct": false }
+      ]
+    },
+    {
+      "text": "Como pessoas com deficiência auditiva podem se comunicar? [1 correta]",
+      "options": [
+        { "type": "text", "text": "Usando Libras (linguagem de sinais), que permite conversar com as mãos e expressões.", "correct": true },
+        { "type": "text", "text": "Usando chapéus que traduzem miados de gatos em palavras.", "correct": false },
+        { "type": "text", "text": "Falando apenas por código secreto de piscadinhas.", "correct": false }
+      ]
     }
   ],
   "português": [
